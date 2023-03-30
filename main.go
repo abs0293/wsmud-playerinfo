@@ -447,6 +447,8 @@ func parseKey(in string) string {
 		v = "绝招冷却"
 	case "绝招释放时间":
 		v = "绝招释放"
+	case "攻击速度":
+		v = "攻速"
 	}
 	return p + v
 }
